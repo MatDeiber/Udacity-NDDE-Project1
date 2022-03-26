@@ -11,11 +11,15 @@ The project consisted in defining fact and dimension tables for a star schema fo
 
 First run create_tables.py to reset the tables, then run etl.py to fill the database.
 
-create_tables.py: drops and creates your tables.
-etl.py: reads and processes files from song_data and log_data and loads them into your tables.
-sql_queries.p: contains all your sql queries.
-etl.ipynb: reads and processes a single file from song_data and log_data and loads the data into your tables. This notebook contains detailed instructions on the ETL process for each of the tables.
-test.ipynb: displays the first few rows of each table to let you check your database.
+**create_tables.py**: drops and creates your tables.
+
+**etl.py**: reads and processes files from song_data and log_data and loads them into your tables.
+
+**sql_queries.py**: contains all your sql queries.
+
+**etl.ipynb**: reads and processes a single file from song_data and log_data and loads the data into your tables. This notebook contains detailed instructions on the ETL process for each of the tables.
+
+**test.ipynb**: displays the first few rows of each table to let you check your database.
 ./data: folder containing the song and log datasets
 
 ## Database Schema Design and ETL Pipeline
